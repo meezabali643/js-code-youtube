@@ -31,3 +31,32 @@ console.log("hello world")
 }
 
 console.log(typeof bigNumber)
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(primitive datatypes), Heap(Nonprimitive datatypes)
+
+let myname= "kashifa";
+anothername= "noreen";
+
+console.log(myname);
+console.log(anothername);
+
+let userone ={
+    name:"ali",
+    age:10,
+    email: "ali2334@gmail.com"
+}
+let usertwo= userone
+
+usertwo.email = " amar@gamil.com";
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
+
+
